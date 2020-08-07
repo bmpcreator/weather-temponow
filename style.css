@@ -1,0 +1,135 @@
+body{
+    background-image: url('BackGround3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    background-attachment: fixed;
+    
+}
+#descriptionInitial{
+    position: fixed;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 16px;
+    float: left;
+    top: 87%;
+    
+}
+
+
+#logoContainer{
+    background-image: url('tempo_logo.jpg');
+    position: fixed;
+    width: 240px;
+    height: 87px;
+    background-position: left center;
+    background-repeat: no-repeat;    
+    top: 5%;
+}
+#logoCredito{
+    background-image: url('logoCredito.png');
+    position: fixed;
+    width: 106px;
+    height: 60px;
+    background-position: left center;
+    background-repeat: no-repeat; 
+    top: 7%;
+    right: 71%;
+}
+#digiteLocal{
+    background-image: url('digiteLocal.png');
+    position: fixed;
+    width: 210px;
+    height: 50px;
+    background-position: left center;
+    background-repeat: no-repeat; 
+    top: 23%;
+    float: left;
+}
+
+#weatherContainer{
+    background-color: rgba(7, 80, 5, 0.295);
+    box-shadow: 1px 1px 5px black;
+    padding: 50px;
+    border-radius: 10px;
+    position: fixed;
+    visibility: hidden;
+      
+}
+
+
+#weatherContainer h1{
+    margin: 5px;
+    font-size: 42px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#searchcontainer{
+    padding: 15px;
+    position: fixed;
+    top: 28%;
+    float: left;
+    
+}
+#searchContainer input{
+    width: 200px;
+}
+#searchContainer button{
+    background-color: rgba(60, 124, 184, 0.8);
+    width: 75px;
+    cursor: pointer;
+    
+}
+.searchControl{
+    box-shadow: 2px 2px 5px black;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+#weatherMain{
+    display: block;
+    margin-bottom: 20px;
+    
+}
+#weatherMain div{
+    display: inline-block;
+}
+#weatherDescriptionHeader{
+    font-size: 20px;
+    vertical-align: 50%;
+}
+#temperature{
+    font-size: 30px;
+    vertical-align: 25%;
+}
+#documentIconImg{
+    max-width: 40px;
+    max-height: 40px;
+}
+.bottomDetails{
+    display: block;
+    font-size: 15px;
+    text-align: right;
+}
+hr{
+    margin-bottom: 20px;
+}
+
+
+
+#weatherForecast{
+    background-color: rgba(7, 80, 5, 0.295);
+    box-shadow: 1px 1px 5px black;
+    padding: 10px;
+    border-radius: 10px;
+    position: static;
+    visibility: hidden;
+    font-size: 15px;
+    border-radius: 2px;
+    box-sizing: content-box;
+    float: right;
+    width: 280px;
+    height: 800px;
+    top: 25%;
+}
